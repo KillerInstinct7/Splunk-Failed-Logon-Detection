@@ -1,1 +1,1 @@
-
+index="detectionlab_1" EventCode="4625" Logon_Process="User32" | bin _time span=2m | stats count by ComputerName _time | where count >= 4
